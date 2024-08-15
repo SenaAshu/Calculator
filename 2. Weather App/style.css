@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/Comet-Stars-Anime-Sunset-AI-Generated-4K-Wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* text-align: center; */
+}
+
+.container{
+    /* position: relative; */
+    background-color: black;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px); /* Background blur */
+    -webkit-backdrop-filter: blur(10px); /* Background blur for Safari */
+    border: 1px solid rgba(255, 255, 255, 0.347);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.982);
+    height: 555px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.search-area{
+    display: inline-block;
+    /* color: aliceblue; */
+    /* background-color: blanchedalmond; */
+    height: 13%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.search-area input{
+    height: 40px;
+    width: 80%;
+    padding: 0 6rem;
+    border-radius: 10px;
+    margin-top: 1.2rem;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.search-area i:nth-child(1){
+    position: relative;
+    left: 47px;
+    color: black;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.search-area button{
+    position: relative;
+    right: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+}
+
+#btn2{
+    position: relative;
+    left: 0px;
+    color: black;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.show-temperature{
+    position: relative;
+    height: 380px;
+    width: 300px;
+    /* background-color: aquamarine; */
+    text-align: center;
+    margin-left: 10%;
+}
+
+.show-temperature img{
+    height: 200px;
+    width: 200px;
+    /* margin-top: 15px; */
+    border: none;
+}
+
+.show-temperature .temp{
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.show-temperature .climate-detail{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+
+.humidity-wind_speed-parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.humidity-class{
+    display: flex;
+    color: #ffffff;
+    gap: 10px;
+}
+.humidity-class .humidity img{
+    height: 40px;
+    width: 50px;
+}
+
+.wind_speed-parent{
+    display: flex;
+    color: #ffffff;
+    gap: 10px;
+}
+.wind_speed-parent .wind_speed img{
+    height: 40px;
+    width: 50px;
+}

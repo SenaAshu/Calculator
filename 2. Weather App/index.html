@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-area">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" id="city" placeholder="Enter a city"/>
+        <button id="search-btn"><i class="fa-solid fa-magnifying-glass " id="btn2"></i></button>
+      </div>
+
+      <div class="show-temperature">
+        <div class="weather-images" id="weather-images">
+          <img src="" alt="" id="weather-info" />
+        </div>
+        <div class="temp" id="temp"></div>
+        <div class="climate-detail" id="climate-detail"></div>
+      </div>
+      
+      <div class="humidity-wind_speed-parent">
+        <div class="humidity-class">
+          <div class="humidity">
+            <img src="./images/humidity.png" alt="" />
+          </div>
+          <div class="humidity-details">
+            <div class="div" id="percentage"></div>
+            <p>humidity</p>
+          </div>
+        </div>
+
+
+      <div class="wind_speed-parent">
+          <div class="wind_speed">
+            <img src="./images/wind.png" alt="" />
+          </div>
+          <div class="wind_speed-details">
+            <div class="div" id="kilometerPerHour"></div>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+    </div>
+
+    </div>
+
+    
+    <script
+      src="https://kit.fontawesome.com/75c831c237.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.dark-mode{
+    background-color: #28282B;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #6daddb;
+background-image: linear-gradient(315deg, #6daddb 0%, #313131 74%);
+    }
+
+
+
+.container{
+    height: 450px;
+    width: 290px;
+    border: none;
+    position: relative;
+    top: 20px;
+    border-radius: 12px;
+    padding: 8px 13px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.theme-changing-button{
+    height: 22px;
+    width: 22px;
+    border-radius: 100%;
+    position: relative;
+    left: 15.3rem;
+    cursor: pointer;
+    border: none;
+    transition: all 200ms ease-in-out;
+}
+.theme-changing-button:hover{
+    transform: scale(1.1);
+}
+.display-screen{
+    height: 130px;
+    min-width: 270px;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.display{
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+    font-size: 33px;
+    color: #ffffff;
+}
+
+.buttons{
+    height: 64%;
+    width: 100%;
+}
+
+
+.buttons .switch{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 4px 9.989px;
+    font-size: 17px;
+    transition: all 200ms ease-in-out;
+}
+
+.buttons .switch:hover{
+    transform: scale(1.1);
+}
+
+.switch2{
+    height: 98px;
+    width: 45px;
+    margin-left: 7.989px;
+    border-radius: 100px;
+    font-size: 17px;
+    transition: all 200ms ease-in-out;
+}
+.switch2:hover{
+    transform: scale(1.04);
+}
+
+.buttons .number{
+    background-color: #005f69;
+    color: #ffffff;
+    border: none;
+}
+
+.buttons .C{
+    background-color: #ce516430;
+    color: red;
+    border: none;
+}
+
+.buttons .back{
+    background-color: #00000097;
+    color: rgb(255, 149, 0);
+    border: none;
+    font-size: 22px;
+}
+
+.buttons .bracket{
+    background-color: #f0f0d43e;
+    color: #f2ff00;
+    border: none;
+}
+
+.buttons .math{
+    background-color: #af8db15f;
+    color: #ff00ff;
+    border: none;
+    font-size: 24px;
+}
+
+.buttons .switch2{
+    background-color: #014824ee;
+    color: #8fa990;
+    border: none;
+    font-size: 21px;
+}
+
+
+
+                                                                    /* light-mode */
+ .light-mode{
+    background-color:#ffffff ;
+ }
+ 
+.theme-changing-button2{
+    background-color: #28282B;
+    border: none;
+ }
+
+ .display2{
+    color: black;
+}
+
+.body-backgroundColor-change{
+    background-color: #c3cbdc;
+    background-image: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
+    }

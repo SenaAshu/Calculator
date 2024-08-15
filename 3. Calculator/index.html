@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="container dark-mode">
+
+        <div class="theme-changer">
+            <button class="theme-changing-button"></button>
+        </div>
+
+        <div class="display-screen">
+            <div class="display" id="display"></div>
+        </div>
+
+        <div class="buttons">
+            <table>
+                <tr>
+                    <td><button class="switch C" id="C">C</button></td>
+                    <td><button class="switch math" id="division">&divide;</button></td>
+                    <td><button class="switch math" id="multiply">&times;</button></td>
+                    <td><button class="switch back" id="backspace"><</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="switch number" id="seven">7</button></td>
+                    <td><button class="switch number" id="eight">8</button></td>
+                    <td><button class="switch number" id="nine">9</button></td>
+                    <td><button class="switch math" id="minus">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="switch number" id="four">4</button></td>
+                    <td><button class="switch number" id="five">5</button></td>
+                    <td><button class="switch number" id="six">6</button></td>
+                    <td><button class="switch math" id="plus">+</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="switch number" id="one">1</button></td>
+                    <td><button class="switch number" id="two">2</button></td>
+                    <td><button class="switch number" id="three">3</button></td>
+                    <td rowspan="2"><button class="switch2 equalTo" id="equalTo">=</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="switch bracket" id="left-paranthesis">(</button></td>
+                    <td><button class="switch number" id="zero">0</button></td>
+                    <td><button class="switch bracket" id="right-paranthesis">)</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
